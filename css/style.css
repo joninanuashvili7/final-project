@@ -231,6 +231,6 @@ body{
     width: 600px;
 }
 .form-text {
-    color: red;
+    color: rgb(105, 105, 105);
     font-size: 32px;
 }
