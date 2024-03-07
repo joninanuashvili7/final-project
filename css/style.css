@@ -239,4 +239,11 @@ body{
 .form-text {
     color: rgb(105, 105, 105);
     font-size: 32px;
+    margin-bottom: 20px;
+}
+.label {
+    font-size: 18px;
+}
+.submitbutton {
+    border-radius: 23px;
 }
