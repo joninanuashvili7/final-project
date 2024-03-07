@@ -1,0 +1,236 @@
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  /* image animation */
+@keyframes zoomIn {
+    0% { transform: scale(0); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+  /*  */
+  img:hover{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+img {
+    animation-name: zoomIn;
+    animation-duration: 3s;
+    border-radius: 32px;
+}
+/*header*/
+body{
+    background-color: black;
+}
+.mainlogodiv{
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.navigation{
+    width: 100%;
+    height: 100%;
+}
+.navigation-div1{
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    z-index: 10;
+    background-color: gray;
+    opacity: 0.9;
+    margin-top: 80px;
+   
+}
+.nav-ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.color{
+    font-size: 20px;
+    color: white;
+}
+/*burger bar*/
+.burger-bar{
+    font-size: 35px;
+    top:10px;
+    right: 20px;
+    color: black;
+    text-shadow: 2px 2px 2px gray;
+    position: absolute;
+    display: none;
+}
+
+/*background-div*/
+
+.background-image-div{
+    background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+    height: 960px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+}
+.grid-section{
+    padding-top: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grit-text{
+    color: white;
+    font-size: 24px;
+}
+.grid-h3{
+    color: white;
+    font-size: 800;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.grid-image{
+    width: 600px;
+}
+.grid-section-div{
+    display: grid;
+    max-width: 1300px;
+    width: 100%;
+    -ms-grid-columns: 45% 45%;
+    grid-template-columns: 45% 45%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.grid-small-divs{
+    padding-top: 20px;
+}
+.sites-section{
+    margin-top: 120px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.h2-text{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: black;
+    font-size: 50px;
+}
+.sites{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.iconss{
+    font-size: 50px;
+    color: black;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+.footer-div{
+    max-width: 300px;
+}
+.first{
+    display: flex;
+}
+.fb-icon{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.icon-div-bottom{
+    margin-left: 20px;
+}
+.li-href{
+    font-size: 16px;
+   color: white;
+}
+.li-tags{
+    margin-bottom: 10px;
+}
+/*describe div*/
+.describe-section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripe-div{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.small-text{
+    color: white;
+
+}
+.h2-flex{
+    margin-top: 30px;
+    margin-bottom: 170px;
+    font-size: 60px;
+    color: white;
+}
+.flex-description{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+.left-div{
+    max-width: 400px;
+    width: 100%;
+}
+.discover-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+.discoverh6{
+    border-radius: 32px;
+    width: 100%;
+    height: 100%    ;
+}
+.carrimagee{
+    width: 600px;
+}
+.form-text {
+    color: red;
+    font-size: 32px;
+}

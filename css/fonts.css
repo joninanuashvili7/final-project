@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-bold/Lato-Bold.eot');
+    src: url('../fonts/lato-bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato-bold/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/lato-bold/Lato-Bold.woff') format('woff'),
+        url('../fonts/lato-bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Leelawadee';
+    src: url('../fonts/Leelawadee-Bold/Leelawadee-Bold.eot');
+    src: url('../fonts/Leelawadee-Bold/Leelawadee-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Leelawadee-Bold/Leelawadee-Bold.woff2') format('woff2'),
+        url('../fonts/Leelawadee-Bold/Leelawadee-Bold.woff') format('woff'),
+        url('../fonts/Leelawadee-Bold/Leelawadee-Bold.svg#Leelawadee-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-regular/Roboto-Regular.eot');
+    src: url('../fonts/roboto-regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-regular/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/roboto-regular/Roboto-Regular.woff') format('woff'),
+        url('../fonts/roboto-regular/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular/Poppins-Regular.eot');
+    src: url('../fonts/poppins-regular/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/poppins-regular/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins-regular/Poppins-Regular.woff') format('woff'),
+        url('../fonts/poppins-regular/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
