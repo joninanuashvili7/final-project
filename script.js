@@ -16,3 +16,8 @@ document.getElementById('buttonclick').addEventListener('click', function()
 {
     alert('Thank you for getting in touch!')
 })
+const burgerBar = document.getElementById('toggleburger');
+
+burgerBar.addEventListener('click', () => {
+  burgerBar.classList.toggle('open');
+});

@@ -1,8 +1,8 @@
 h2,h3,h4,h5,h6 {
-    font-family: "Leelawadee";
+    font-family: "Lato";
 }
 h1 {
-    font-family: "Roboto";
+    font-family: "Lato";
 }
 /* Animations */
 @keyframes fadeIn {
