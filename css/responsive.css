@@ -1,13 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1135px) {
     .grid-section-div{
         width: 600px;
+        -ms-grid-columns: 95%;
         grid-template-columns: 95%;
     }
     .descripe-div{
         width: 95%;
         max-width: 1135px;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         gap: 15px;
     }
     .sites-section{
@@ -25,14 +38,22 @@
     }
     .footer-section {
         width: 98%;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .nav-ul{
         display: none;
     }
     .grid-section-div{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     }
     .grid-image {
@@ -47,8 +68,13 @@
         margin: 0;
     }
     .grid-section-div{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-grid-columns: 95%;
         grid-template-columns: 95%;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
   }
 }
