@@ -4,6 +4,8 @@ h2,h3,h4,h5,h6 {
 h1 {
     font-family: "Lato";
 }
+/* Burgerbar */
+
 /* Animations */
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -72,17 +74,6 @@ body{
     font-size: 20px;
     color: white;
 }
-/*burger bar*/
-.burger-bar{
-    font-size: 35px;
-    top:10px;
-    right: 20px;
-    color: black;
-    text-shadow: 2px 2px 2px gray;
-    position: absolute;
-    display: none;
-}
-
 /*background-div*/
 
 .background-image-div{

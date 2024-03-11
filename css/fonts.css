@@ -2,16 +2,10 @@
     font-family: 'Lato';
     src: url('../fonts/lato-bold/Lato-Bold.eot');
     src: url('../fonts/lato-bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
-    src: url('../fonts/lato-bold/Lato-Bold.woff2') format('woff2'),
-    src: url('../fonts/lato-bold/Lato-Bold.woff') format('woff'),
-    src: url('../fonts/lato-bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    src url('../fonts/lato-bold/Lato-Bold.woff2') format('woff2'),
+    src url('../fonts/lato-bold/Lato-Bold.woff') format('woff'),
+    src url('../fonts/lato-bold/Lato-Bold.svg#Lato-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: ;
-    src: url();
-}
-
-
