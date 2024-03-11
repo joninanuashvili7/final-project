@@ -15,6 +15,14 @@
     }
   }
   @media (max-width: 620px) {
+    /* Burgerbar */
+    .burgerbar {
+        display: block;
+    }
+    /*  */
+    .navigation {
+        display: none;
+    }
     .footer-section {
         width: 98%;
         flex-direction: column;
